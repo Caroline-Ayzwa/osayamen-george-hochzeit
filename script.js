@@ -4,7 +4,7 @@ const WEDDING_DATE = new Date("2026-10-09T11:00:00+02:00");
 
 const messages = {
   yes: "Hallo Osayamen & George, ich/wir sind bei eurer Hochzeit am 09.10.2026 sehr gerne dabei. Ich/Wir sind auch gerne danach bei der Reception im Feiersaal dabei. Name(n): ",
-  no: "Hallo Osayamen & George, leider kann/können ich/wir am 09.10.2026 nicht dabei sein. Name(n): ",
+  no: "Hallo Osayamen & George, leider kann/können ich/wir am 09.10.2026 nicht dabei sein. Name(n):  ",
 };
 
 document.querySelectorAll("[data-rsvp]").forEach((link) => {
